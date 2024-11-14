@@ -1,0 +1,39 @@
+.hero{
+    background: #000;
+    margin-bottom: 100px;
+    &__wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+    &__text{
+        color: #fff;
+        margin-top: 50px;      
+        h5{
+            font-size: 16px;
+            font-weight: 400;
+            color: #FAFAFA;
+        }
+        h3{
+            font-size: 48px;
+            font-weight: 600;
+        }
+        h4{
+            font-size: 16px;
+            font-weight: 500;
+        }
+        .fa-solid{
+            margin-left: 20px;
+            color: #FAFAFA;
+        }
+    }
+    &__title{
+        margin: 0 auto;
+    }
+    &__image{
+        display: flex;
+        align-items: center;
+        gap: 30px;    
+    }
+}
